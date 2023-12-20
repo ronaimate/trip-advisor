@@ -1,4 +1,4 @@
-## For testing Java 21 Platform and Virtual Threads.
+## For testing Java 21 Platform vs Virtual Threads. (SpringBoot 3.2)
 
 This is just a playground project, the purpose of which was to try springboot with the virtual threads introduced in
 3.2 (Java 21)
