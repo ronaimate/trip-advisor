@@ -1,0 +1,59 @@
+{
+  "info": {
+    "_postman_id": "dc27ac07-cf24-4b17-878c-5b00776dd90c",
+    "name": "virtual-thread-course",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "921938"
+  },
+  "item": [
+    {
+      "name": "trip-plan",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/trip/LAS",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "trip",
+            "LAS"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "trip-reservation",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"departure\": \"ATL\",\r\n    \"arrival\": \"LAS\",\r\n    \"date\": \"2024-12-12\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/trip/reserve",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "trip",
+            "reserve"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
