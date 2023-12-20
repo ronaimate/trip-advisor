@@ -25,3 +25,5 @@ I have attached the jmeter jmx files and the results of a couple of tests I ran 
 >
 > After that, run Jmeter with arbitrary values, e.g. 300-300-360, with the following command:
 <strong> jmeter -n -t trip-plan.jmx -l virtual-trip-reserve.jtl</strong>
+
+Ref: https://www.udemy.com/course/java-virtual-thread/
